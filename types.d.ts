@@ -11,9 +11,7 @@ declare global {
   type FormFeilds = {
     title: string;
     value: string;
-    handleChangeText: (
-      e: NativeSyntheticEvent<TextInputChangeEventData>
-    ) => void;
+    handleChangeText: (text: string) => void;
     otherStyles: string;
     keyboardType: string;
     placeholder: string;

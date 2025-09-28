@@ -17,7 +17,7 @@ const FormFeild: React.FC<FormFeilds> = ({
           className="flex-1 text-base text-green-300"
           placeholder={placeholder}
           value={value}
-          onChange={handleChangeText}
+          onChangeText={handleChangeText}
           inputMode={keyboardType === "number" ? "numeric" : "text"}
         />
       </View>
